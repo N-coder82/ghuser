@@ -20,6 +20,7 @@ echo "Installing ghuser..."
 mkdir "$TMPDIR/ghuser"
 cd "$TMPDIR/ghuser" || error_exit
 curl -O https://raw.githubusercontent.com/N-coder82/ghuser/main/ghuser.sh || error_exit
+chmod +x ghuser.sh
 sudo mv ghuser.sh /usr/local/bin/ghuser || error_exit
 cd ..
 rm -rf "$TMPDIR/ghuser" || error_exit
