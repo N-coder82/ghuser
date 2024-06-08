@@ -19,7 +19,7 @@ error_exit() {
 echo "Installing ghuser..."
 mkdir "$TMPDIR/ghuser"
 cd "$TMPDIR/ghuser" || error_exit
-wget https://raw.githubusercontent.com/N-coder82/ghuser/main/ghuser.sh
+curl -O https://raw.githubusercontent.com/N-coder82/ghuser/main/ghuser.sh
 mv ghuser.sh /usr/local/bin/ghuser
 cd ..
 rm -rf "$TMPDIR/ghuser"
