@@ -3,5 +3,5 @@ A small, opinionated CLI tool that says whether a GitHub user exists, and gives 
 ## How to install:
 Run this command:
 ```bash
-$ /bin/bash <(curl -s https://raw.githubusercontent.com/N-coder82/ghuser/main/install.sh)`
+/bin/bash <(curl -s https://raw.githubusercontent.com/N-coder82/ghuser/main/install.sh)
 ```
